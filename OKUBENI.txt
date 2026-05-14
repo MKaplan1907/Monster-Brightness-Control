@@ -1,0 +1,35 @@
+╔══════════════════════════════════════════════════════╗
+║   MONSTER BRIGHTNESS CONTROL                        ║
+║   Kurulum ve Kullanım Kılavuzu                      ║
+╚══════════════════════════════════════════════════════╝
+
+━━━ HIZLI BAŞLANGIÇ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEÇENEK A – Direkt Çalıştır (Python gerekli):
+  1. CALISTIR.bat dosyasına çift tıkla
+  2. Yönetici yetkisi iste penceresine "Evet" de
+  3. Program açılır!
+
+SEÇENEK B – EXE Oluştur (tek seferlik):
+  1. BUILD.bat dosyasına çift tıkla
+  2. Python yoksa: https://python.org → 3.10+ indir
+     Kurulumda ✓ "Add Python to PATH" seç!
+  3. Derleme bittikten sonra MonsterBrightness.exe hazır
+  4. EXE'ye sağ tıkla → "Yönetici olarak çalıştır"
+
+━━━ ÖZELLİKLER ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  0–100%    → Gerçek sistem parlaklığı (WMI)
+  101–200%  → Gamma boost ile sistem limitini aş!
+  Presetler → Gece / ECO / Normal / Boost / Ultra
+  Otomatik  → Çıkışta gamma sıfırlanır
+
+━━━ SORUN GİDERME ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  "WMI yok – gamma modu" yazısı görüyorsanız:
+  → Gamma boost çalışıyor, sadece WMI bağlantısı yok
+  → Normal, program yine de ekranı parlaklaştırır
+
+  EXE açılmıyor → Sağ tıkla, Yönetici olarak çalıştır
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
